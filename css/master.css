@@ -21,3 +21,15 @@ body {
     float: right;
     height: 100%;
 }
+
+@media screen and (max-width: 780px)
+{
+    body {
+        max-width: 100%;
+        padding: 2% 2% 2% 2%;
+    }
+
+    #sidenav {
+        display: none;
+    }
+}
