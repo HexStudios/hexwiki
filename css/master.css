@@ -1,0 +1,23 @@
+body {
+    color: #444;
+    line-height: 1.4;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+#sidenav {
+    max-width: 250px;
+    display: block;
+    float: left;
+    height: 100%;
+} #sidenav ul {
+    list-style-type: none;
+    padding: 0 0 0 0;
+}
+
+#wikipage {
+    max-width: 650px;
+    display: block;
+    float: right;
+    height: 100%;
+}
