@@ -18,7 +18,10 @@ $pageName .= 'pages/' . $_GET["page"] . '.php';
                 <?php include("pages/navigation.php"); ?>
         </div>
         <div id="wikipage">
-            <?php include($pageName);?>
+        	<?php 
+                if ($pageName == "pages/.php"){include("pages/welcome.php");}
+                else {include($pageName);}
+		    ?>
         </div>
 
         <div id="footer">
