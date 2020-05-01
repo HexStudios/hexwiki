@@ -22,6 +22,12 @@ body {
     height: 100%;
 }
 
+#footer {
+    max-width: 100%;
+    clear: both;
+    margin-top: 400px;
+}
+
 @media screen and (max-width: 780px)
 {
     body {
@@ -32,4 +38,5 @@ body {
     #sidenav {
         display: none;
     }
+    
 }

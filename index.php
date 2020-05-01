@@ -15,15 +15,15 @@ $pageName .= 'pages/' . $_GET["page"] . '.php';
 
         <div id="sidenav">
             <b>Navigation</b>
-            <ul>
-                <li><a href="index.php?page=welcome">Welcome</a></li>
-                <li><a href="index.php?page=test">Test page</a></li>
-                <li><a href="index.php?page=test2">Test page 2</a></li>
-            </ul>
+                <?php include("pages/navigation.php"); ?>
         </div>
-
         <div id="wikipage">
             <?php include($pageName);?>
+        </div>
+
+        <div id="footer">
+            <p>&copy;Copyright 2020, Hex Studios</p>
+            <?php include("pages/navigation.php"); ?>
         </div>
     </body>
 </html>
