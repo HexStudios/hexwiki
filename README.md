@@ -11,7 +11,7 @@ HexWiki is a very minimalistic open-source wiki developed in PHP.
 
 ## How to use
 - First you need to make sure your webserver has PHP installed.
-- **FOR NOW**, just download the `realease.zip` file, and extract it into the desired directory on your webserver.
+- **FOR NOW**, just download the `hexwiki_release-XXX.zip` file, and extract it into the desired directory on your webserver.
 
 # TO-DO
 - Add new pages
