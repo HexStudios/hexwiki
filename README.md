@@ -1,8 +1,8 @@
 # HexWiki
 This is the official repository for the open source HexWiki, developed by Hex Studios, and licensed under GPL-3.0.
- (optional feature)
+
 ## What is HexWiki
-HexWiki is a very minimalistic open-source wiki developed in PHP.
+<p>HexWiki is a very minimalistic open-source wiki developed in PHP. It was designed to be able to have easy documentation for projects that is both readable, yet simple.</p>
 
 ## Features
 - Minimalistic design
@@ -19,3 +19,4 @@ HexWiki is a very minimalistic open-source wiki developed in PHP.
 - Users
 - Admin control panel
 - Settings
+- Themes
